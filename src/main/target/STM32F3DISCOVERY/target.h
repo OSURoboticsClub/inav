@@ -104,8 +104,17 @@
 #define USE_UART5
 #define SERIAL_PORT_COUNT       6
 
+#define UART2_TX_PIN            PD5
+#define UART2_RX_PIN            PD6
+
 #define UART3_TX_PIN            PB10 // PB10 (AF7)
 #define UART3_RX_PIN            PB11 // PB11 (AF7)
+
+#define UART4_TX_PIN            PC10
+#define UART4_RX_PIN            PC11
+
+#define UART5_TX_PIN            PC12
+#define UART5_RX_PIN            PD2
 
 #define USE_RX_NRF24
 #define NRF24_SPI_INSTANCE      SPI2
