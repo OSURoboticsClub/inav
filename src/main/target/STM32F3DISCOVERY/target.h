@@ -116,6 +116,14 @@
 #define UART5_TX_PIN            PC12
 #define UART5_RX_PIN            PD2
 
+#define USE_SOFTSERIAL1
+#define SOFTSERIAL_1_RX_PIN     PC10
+#define SOFTSERIAL_1_TX_PIN     PC11
+
+#define USE_SOFTSERIAL2
+#define SOFTSERIAL_2_RX_PIN     PC12
+#define SOFTSERIAL_2_TX_PIN     PD2
+
 #define USE_RX_NRF24
 #define NRF24_SPI_INSTANCE      SPI2
 #define USE_RX_CX10
